@@ -310,7 +310,7 @@ class GameWindow:
         choosing_colour_texts = ["P" + str(i + 1) + " CHOOSE YOUR COLOUR" for i in range(4)]
         one_colour_left_to_choose_text = [" GETS " + colour_names[i] for i in range(4)]
         players_to_colour_texts = ["P" + str(i + 1) for i in range(4)]
-        actions = ["PRESS -> [-SPACE-]", "CONFIRM -> [-ENTER-]", "CHOOSE COLOUR -> [-UP-] [-DOWN-]",
+        actions = ["PRESS -> [-RIGHT MOUSE BUTTON-]", "CONFIRM -> [-ENTER-]", "CHOOSE COLOUR -> [-UP-] [-DOWN-]",
                    'PRESS -> [-LEFT MOUSE BUTTON-]']
 
         if self.initial_setup:
